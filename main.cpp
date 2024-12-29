@@ -25,7 +25,8 @@ int main(){
     cout << "Please enter an Y coordinate of point A";
     cin >> yp;
 
-    //circleEquationDisplay();
+    circleEquationDisplay();
+    pointAndCirleDist();
 
     return 0;
 }
@@ -52,3 +53,6 @@ void pointAndCirleDist(){
         cout << "Something went wrong" << endl;
     }
 }
+
+// TODO: Make UI less confusing
+// TODO: Make that user can draw multiple circles and points at once
